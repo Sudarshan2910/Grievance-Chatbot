@@ -142,7 +142,7 @@ def setup_pdf():
 
 if __name__ == "__main__":
     # Hugging Face token
-    hf_token = "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"  # Replace with your Hugging Face token
+    hf_token = "h"  # Replace with your Hugging Face token
     model, tokenizer = load_mistral(_token=hf_token)
     
     # Process the static PDF once on server start
